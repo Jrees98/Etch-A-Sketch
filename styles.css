@@ -11,15 +11,14 @@ body{
     display: flex;
     flex-wrap: wrap;
     outline: 4px solid black;
-    height: 512px;
-    width: 512px;
+    width: 40rem;
+    height: 40rem;
+
 }
 
 .gridCell {
     outline: 1px solid black;
-    height: 32px;
-    width: 32px;
-
+    box-sizing: border-box;
 }
 
 .gridCell:hover {
@@ -41,5 +40,14 @@ body{
 }
 
 .sizer {
-    margin-left: 400px;
+height: 100px;
+width: 100px;
+margin-top: 200px;
+margin-left: 250px;
+margin-right: 100px;
+}
+
+.biggerContainer {
+    display: flex;
+    justify-content: start;
 }
