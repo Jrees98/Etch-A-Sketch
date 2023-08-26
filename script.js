@@ -9,14 +9,11 @@ for (let i = 1; i<= 256 ; i++) {
 const allCells = document.querySelectorAll('.gridCell')
 allCells.forEach((cell) => {
 
-    cell.addEventListener('click', () => {
+    cell.addEventListener('mouseover', () => {
         cell.style.backgroundColor = 'blue'
     })
 
 })
-
-
-
 
 //Reset button
 const resetBtn = document.querySelector('.resetBtn')
