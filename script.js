@@ -22,3 +22,13 @@ resetBtn.addEventListener('click', () => {
         cell.style.backgroundColor = ''; // Reset to default (empty string)
     });
 });
+
+
+//Grid Size
+
+const gridSizer = document.querySelector('.sizer')
+
+gridSizer.addEventListener('click', () => {
+    let gridInteger = prompt('Enter grid size: ')
+    console.log(gridInteger)
+})

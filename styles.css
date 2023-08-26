@@ -1,8 +1,5 @@
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .title {
@@ -36,3 +33,13 @@ body{
     border-radius: 10px;
 }
 
+.bigContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sizer {
+    margin-left: 400px;
+}
