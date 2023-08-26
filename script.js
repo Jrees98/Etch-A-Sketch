@@ -23,13 +23,11 @@ createGrid(16)
 
 
 const allCells = document.querySelectorAll('.gridCell')
-allCells.forEach((cell) => {
-
-    cell.addEventListener('mouseover', () => {
-        cell.style.backgroundColor = 'blue'
-    })
-
-})
+mainGrid.addEventListener('mouseover', (event) => {
+    if (event.target.classList.contains('gridCell')) {
+        event.target.style.backgroundColor = 'blue';
+    }
+});
 
 //Reset button
 const resetBtn = document.querySelector('.resetBtn')
