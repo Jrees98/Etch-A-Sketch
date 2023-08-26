@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.mainGrid {
+    display: flex;
+    flex-wrap: wrap;
+    outline: 4px solid black;
+    height: 512px;
+    width: 512px;
+}
+
+.gridCell {
+    outline: 1px solid black;
+    height: 32px;
+    width: 32px;
+
+}
+
+.gridCell:hover {
+    background-color: aqua;
+}
+
+.resetBtn {
+    margin-top: 40px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
